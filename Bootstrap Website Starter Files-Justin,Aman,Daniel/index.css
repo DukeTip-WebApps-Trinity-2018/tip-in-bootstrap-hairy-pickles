@@ -1,0 +1,116 @@
+body{
+  font-family: "Poiret One", cursive;
+  font-size: 20px;
+  background-color: #4EB77F;
+  color: #FFF;
+}
+
+h1{
+  font-family: Pacifico, cursive;
+  font-size: 3em;
+}
+h2{
+  font-size: 3em;
+}
+h3{
+  font-size: 3em;
+}
+h4{
+  font-size: 3em;
+
+}
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #5E4485;
+  color: #FFF;
+  padding: 1% 0;
+  font-size: 1.2em;
+  border: 0;
+}
+
+.navbar-brand {
+  float: left;
+  min-height: 55px;
+  padding: 0 15px 5px;
+}
+
+.nanavbar-inverse .navbar-nav .active a,
+.nanavbar-inverse .navbar-nav .active a:focus,
+.nanavbar-inverse .navbar-nav .active a:hover,
+  {
+  color: #FFF;
+  background-color: #5E4485
+}
+
+.navbar-inverse .navbar-nav li a {
+  color: #D5D5D5
+}
+
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.btn {
+  font-size: 18px;
+  color: #FFF;
+  padding: 12px 22px;
+  background: #5E4485;
+  border: 2px solid #FFF;
+}
+
+#icon {
+  max-width: 200px;
+  margin: 1% auto;
+}
+
+@media (max-width: 850px) {
+  .carousel-caption {
+    display: none;
+  }
+  #icon {
+    max-width: 150px;
+  }
+  h2 {
+    font-size: 1.7em;
+  }
+}
+
+@media (max-width: 900px) {
+  .fa {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+
+.container {
+  margin: 4% auto;
+}
+
+footer {
+  width: 100%;
+  background-color: #5E4485;
+  padding: 3%;
+  color: #FFF;
+}
+
+.fa{
+  padding: 20px;
+  font-size: 30px;
+  color: #FFF;
+}
+
+.fa:hover{
+  color: #D5D5D5;
+  text-decoration: none;
+}
+
+p {
+color: #FFF; 
+}
+
+#life{
+  color: #5E4485;
+  font-size: 1em;
+}
